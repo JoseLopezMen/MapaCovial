@@ -31,8 +31,23 @@ var map = new ol.Map({
     })
 });
 
+var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
+map.addControl(layerSwitcher);
 
-map.getView().fit([-10073784.970810, 1731848.393349, -10056941.261288, 1743134.912235], map.getSize());
+    var searchLayer = new SearchLayer({
+      layer: lyr_Pavimentada2022_5,
+      colName: 'RUTA',
+      zoom: 10,
+      collapsed: true,
+      map: map
+    });
+
+    map.addControl(searchLayer);
+    document.getElementsByClassName('search-layer')[0]
+    .getElementsByTagName('button')[0].className +=
+    ' fa fa-binoculars';
+    
+map.getView().fit([-10160244.796712, 1688887.431785, -10144506.878674, 1699414.180544], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
@@ -72,7 +87,7 @@ var featureOverlay = new ol.layer.Vector({
     updateWhileInteracting: true // optional, for instant visual feedback
 });
 
-var doHighlight = false;
+var doHighlight = true;
 var doHover = false;
 
 var highlight;
@@ -347,6 +362,17 @@ map.on('singleclick', function(evt) {
 
 
 
+
+var geocoder = new Geocoder('nominatim', {
+  provider: 'osm',
+  lang: 'en-US',
+  placeholder: 'Search for ...',
+  limit: 5,
+  keepOpen: true
+});
+map.addControl(geocoder);
+
+document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
 
 var attributionComplete = false;
 map.on("rendercomplete", function(evt) {

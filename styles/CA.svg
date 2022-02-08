@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(255, 252, 252, 0); stroke-width: 4px;" d="M 169.203 -8.326 C 178.956 -8.323 188.013 -5.54 196.108 -0.614 C 230.556 20.35 247.599 80.141 226.839 129.854 C 215.762 156.376 195.877 173.547 173.79 175.666" transform="matrix(0.013803, -0.999905, 0.999905, 0.013803, 116.07747, 285.030883)"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 4px;" x1="111.598" y1="113.64" x2="81.837" y2="114.157"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 4px;" x1="321.739" y1="111.48" x2="291.978" y2="111.997"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-width: 4px;" d="M 83.092 113.697 C 115.617 141.018 97.923 151.62 86.829 177.986 C 35.979 298.834 188.67 258.718 204.696 287.507"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-width: 4px; stroke-linejoin: round; stroke-linecap: round;" d="M 190.407 298.036 C 222.932 270.715 208.495 258.339 197.401 231.973 C 146.551 111.125 299.433 151.552 306.219 122.763" transform="matrix(-1, 0, 0, -1, 510.581726, 409.712021)"/>
+  <line style="stroke: rgb(0, 0, 0); stroke-width: 4px;" x1="101.405" y1="139" x2="299.706" y2="139"/>
+  <text style="font-family: Arial, sans-serif; font-size: 28px; stroke-linecap: round; stroke-miterlimit: 41; stroke-width: 1097.6px; white-space: pre;" transform="matrix(1.13292, 0, 0, 0.689237, 105.956017, 132.498276)">GUATEMALA</text>
+</svg>

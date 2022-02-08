@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E59A19;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#E4951A;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="LWPOLYLINE">
+	<path class="st0" d="M304.1,715.7l288.2-288.2c3.6-3.6,3.6-9.5,0-13.2L304.1,126.1c-3.6-3.6-9.5-3.6-13.2,0L2.7,414.3
+		c-3.6,3.6-3.6,9.5,0,13.2l288.2,288.2C294.5,719.4,300.4,719.4,304.1,715.7z"/>
+</g>
+<g id="LWPOLYLINE_1_">
+	<path class="st1" d="M304.1,702.5l275-275c3.6-3.6,3.6-9.5,0-13.2l-275-275c-3.6-3.6-9.5-3.6-13.2,0l-275,275
+		c-3.6,3.6-3.6,9.5,0,13.2l275,275C294.5,706.2,300.4,706.2,304.1,702.5z"/>
+</g>
+<g id="LWPOLYLINE_2_">
+	<path class="st2" d="M304.1,681.4L558,427.5c3.6-3.6,3.6-9.5,0-13.2L304.1,160.4c-3.6-3.6-9.5-3.6-13.2,0L37,414.3
+		c-3.6,3.6-3.6,9.5,0,13.2l253.9,253.9C294.5,685.1,300.4,685.1,304.1,681.4z"/>
+</g>
+<g id="HATCH_2_">
+	<polygon class="st3" points="481,396.4 415.7,396.4 165.6,396.4 100.3,396.4 100.3,450.2 481,450.2 	"/>
+</g>
+<g id="LWPOLYLINE_3_">
+	<path class="st1" d="M415.7,396.4H481v53.8H100.4v-53.8h65.2C235.7,329.9,345.6,329.9,415.7,396.4z"/>
+</g>
+</svg>

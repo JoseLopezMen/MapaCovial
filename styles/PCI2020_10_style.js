@@ -5,7 +5,7 @@ function categories_PCI2020_10(feature, value, size, resolution, labelText,
                        placement) {
                 switch(value.toString()) {case 'Bueno':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,157,108,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 7}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,157,108,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -13,7 +13,7 @@ function categories_PCI2020_10(feature, value, size, resolution, labelText,
                     break;
 case 'Excelente':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(251,138,87,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 7}),
+        stroke: new ol.style.Stroke({color: 'rgba(251,138,87,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -29,7 +29,7 @@ case 'Malo':
                     break;
 case 'Muy Bueno':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(251,73,25,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 7}),
+        stroke: new ol.style.Stroke({color: 'rgba(251,73,25,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
